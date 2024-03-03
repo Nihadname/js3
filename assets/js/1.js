@@ -14,3 +14,10 @@ function monthDefine(months){
     });
   }
   monthDefine(months);
+//2ci usul 
+  function monthDefineSecond(months){
+    months.filter((value,index)=>console.log(`${value} :${index+1}`))
+  }
+
+  monthDefineSecond(months)
+  
